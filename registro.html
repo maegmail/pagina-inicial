@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Vínculo al archivo de estilos -->
+    <title>Registro</title>
+</head>
+<body>
+    <header class="logo">
+        <img src="imagenes/logo.png" alt="Logo de descriptivos de puestos">        
+    </header>
+    <div class="login-registro-pagina-inicial">
+        <h2>Registro</h2>
+               <form action="auth.php" method="post">
+                <input type="hidden" name="accion" value="registro">
+                <input type="text" placeholder="Usuario"  id="username" name="username" required> 
+                <input type="password" placeholder="Contraseña" id="password" name="password" required>
+                <input type="email" placeholder=" Correo electrónico" id="email" name="email" required>
+                <button type="submit" data-hover="true">Registrarse</button>
+            </form>
+            <p>¿Ya tienes una cuenta?<a href="pagina.html" class="final-form-pagina-inicial">Iniciar sesión</a></p>
+    </div>
+    <footer>
+        <p>Aplicación para la creación de descriptivos de puestos de trabajo - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
+

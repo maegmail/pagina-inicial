@@ -1,0 +1,23 @@
+{
+  "name": "pagina-inicial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "chromedriver": "^128.0.1",
+    "mocha": "^10.7.3",
+    "selenium-webdriver": "^4.24.0"
+  },
+  "dependencies": {
+    "pagina-inicial": "file:",
+    "puppeteer": "^23.3.1"
+  }
+}
